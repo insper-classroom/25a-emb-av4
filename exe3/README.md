@@ -18,13 +18,13 @@ Neste exercício, vocês irão utilizar o RTOS para controlar dois LEDs com as s
 ### Regras adicionais:
 
 * A fila `xQueueInput` pode receber múltiplos valores.
-* Usar delay de `50 ms` para manter os LEDs acesos e de `50 ms` apagados (o teste conta com isso!)
+* Usar delay de `400 ms` para manter os LEDs acesos e de `400 ms` apagados (o teste conta com isso!)
 
 ``` text
 Exemplo:
         _______         _______
 _______|       |_______|       |_____
-   50     50      50      50      50    ms
+   400     400      400      400      400    ms
 ```
 
 

@@ -29,7 +29,7 @@ steps:
           pin: A
           value: 0
 
-    - delay: 70 ms
+    - delay: 650 ms
 
     - wait-pin:
           part-id: led1
@@ -41,7 +41,7 @@ steps:
           pin: A
           value: 0
 
-    - delay: 70 ms
+    - delay: 650 ms
 
     - wait-pin:
           part-id: led1
@@ -53,7 +53,7 @@ steps:
           pin: A
           value: 0
 
-    - delay: 70 ms
+    - delay: 650 ms
 
     - wait-pin:
           part-id: led1
@@ -65,7 +65,7 @@ steps:
           pin: A
           value: 0
 
-    - delay: 70 ms
+    - delay: 650 ms
 
     - wait-pin:
           part-id: led1
@@ -88,7 +88,7 @@ steps:
           pin: A
           value: 0
 
-    - delay: 70 ms
+    - delay: 650 ms
 
     - wait-pin:
           part-id: led2
@@ -100,7 +100,7 @@ steps:
           pin: A
           value: 0
 
-    - delay: 70 ms
+    - delay: 650 ms
 
     - wait-pin:
           part-id: led2
@@ -112,7 +112,7 @@ steps:
           pin: A
           value: 0
 
-    - delay: 70 ms
+    - delay: 650 ms
 
     - wait-pin:
           part-id: led2
@@ -124,7 +124,7 @@ steps:
           pin: A
           value: 0
 
-    - delay: 70 ms
+    - delay: 650 ms
 
     - wait-pin:
           part-id: led2
@@ -136,7 +136,7 @@ steps:
           pin: A
           value: 0
 
-    - delay: 70 ms
+    - delay: 650 ms
 
 ###### aperta blue
 
@@ -160,7 +160,7 @@ steps:
           pin: A
           value: 0
 
-    - delay: 70 ms
+    - delay: 650 ms
 
     - wait-pin:
           part-id: led2
@@ -184,7 +184,7 @@ steps:
           pin: A
           value: 0
 
-    - delay: 70 ms
+    - delay: 650 ms
 
     - wait-pin:
           part-id: led1
@@ -198,6 +198,17 @@ steps:
 
 ### none
 
+    - wait-pin:
+          part-id: led1
+          pin: A
+          value: 0
+
+    - expect-pin:
+          part-id: led2
+          pin: A
+          value: 0
+
+    - delay: 650 ms
 
     - wait-pin:
           part-id: led1
@@ -209,7 +220,7 @@ steps:
           pin: A
           value: 0
 
-    - delay: 70 ms
+    - delay: 650 ms
 
     - wait-pin:
           part-id: led1
@@ -221,19 +232,7 @@ steps:
           pin: A
           value: 0
 
-    - delay: 70 ms
-
-    - wait-pin:
-          part-id: led1
-          pin: A
-          value: 0
-
-    - expect-pin:
-          part-id: led2
-          pin: A
-          value: 0
-
-    - delay: 70 ms
+    - delay: 650 ms
 
     - wait-pin:
           part-id: led1
