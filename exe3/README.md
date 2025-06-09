@@ -1,8 +1,10 @@
 # EXE3
 
-![](imgs/exe3.gif)
+| Funcionalidade | Diagrama |
+| ---------------| -------- |
+|![](imgs/exe3.gif) | <img src="imgs/diagram.png" width="500"> |
 
-![](imgs/diagram.png)
+
 
 Neste exercício, vocês irão utilizar o RTOS para controlar dois LEDs com as seguintes regras:
 
