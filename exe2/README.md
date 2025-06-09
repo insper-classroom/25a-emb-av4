@@ -2,11 +2,7 @@
 
 ![](imgs/exe2.gif)
 
-A inspiração desse exercício veio do alarme de cinto de segurança do carro, quando o carro está ligado e andando o motorista possui um tempo para colocar o cinto, antes que o alarme começe a tocar.
-
-No nosso caso, a indicação de que o carro está em movimento será feita pelo botão **vermelho**, ou seja, quando o botão vermelhor for pressionado devemos esperar 1s antes de soar o alarme (Led **amarelo**), o sensor do cinto será representado pelo botão **azul**. Quando ele for pressionado indica que o passageiro colocou o cinto e o alarme deve parar de soar.
-
-- Usar 1 segundo de alarme entre apertar o botão vermelho e esperar o azul.
+Quando o botão vermelho for pressionado, deve iniciar uma contagem de 1 segundo. Após esse tempo, o LED amarelo deve começar a piscar, indicando o alarme ativado. O alarme deve permanecer ativo, com o LED amarelo piscando, até que o botão azul seja pressionado. Quando o botão azul for pressionado, o alarme deve ser imediatamente desligado, apagando o LED amarelo. Caso o botão azul seja pressionado antes do LED amarelo começar a piscar, o alarme não deve ser ativado e o LED amarelo deve permanecer apagado.
 
 ## Regras de implementação do firmware:
 
