@@ -46,5 +46,5 @@ endif()
 # Hardware-specific examples in subdirectories:
 add_subdirectory(freertos)
 add_subdirectory(exe2)
-#add_subdirectory(exe3)
+add_subdirectory(exe3)
 #add_subdirectory(exe4)
