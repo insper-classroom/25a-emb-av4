@@ -31,7 +31,6 @@ SemaphoreHandle_t xSemaphoreLedB;
  */
 void input_task(void* p) {
 
-    vTaskDelay(pdMS_TO_TICKS(350));
     int test_case;
 
     test_case = 5;
